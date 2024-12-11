@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Raydee Cafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #333333;
+        }
+
+        .image-container {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+            color: #555555;
+        }
+
+        .credits {
+            font-weight: normal;
+            color: #333333;
+            margin: 15px 0;
+            font-size: 1rem;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            color: #444444;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+
+        .location {
+            font-size: 1rem;
+            color: #777777;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888888;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar-expanded">
+            <a href="" class="navbar-brand">
+                <i class="website-name">
+                    <span class="logo-text">
+                        STUCOBE
+                    </span>
+                </i>
+            </a>
+            <div class="navbar-nav">
+                <a href="" class="nav-link">
+                    Societies
+                </a>
+                <a href="" class="nav-link">
+                    Events
+                </a>
+                <a href="" class="nav-link">
+                    About Us
+                </a>
+                <a href="" class="nav-link">
+                    Login
+                </a>
+            </div>
+        </nav>
+        <div class="header">
+            <h1>Yuvaan</h1>
+        </div>
+        <div class="image-container">
+            <img src="data:image/jpeg;base64,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"
+                alt="Yuvaan">
+        </div>
+        <div class="content">
+            <p>Literary and Film Society</p>
+            <p class="credits">
+                Yuvaan, the official literary fest of Delhi Technological University, laid the foundation of a legacy
+                with its premier edition in 2017. Deriving from the Hindi word Yuva, the fest captures the vigour,
+                boldness and the spontaneity associated with the youth. It represents the quintessential voice
+                responsible for moulding the future. Yuvaan exhibits the perfect amalgamation of technology, science and
+                literature.
+
+                The fest emphasises the literary aspects including and not restricted to writing, reading and observing
+                prose and poetry. The aim is to provide entertainment, enlightenment, and instruction to the audience.
+                It is often said, “Actions speak louder than words”; Yuvaan proves to be magnetic by pulling every
+                person out there powered by the fusion of classical literature with modern, divergent and unconventional
+                literary events.
+
+                Yuvaan'17, had a humble beginning, and was followed by many interesting events such as talk show, poets
+                collective, motivational speakers, bonfire night etc. and the closing ceremony. It also included
+                conventional events like poetry slam, conventional debate, letter writing etc.
+
+                Yuvaan'18 was a bigger hit. It created a furore in the Delhi NCR region. With the theme 'The Elixir of
+                Life,'​ over 40k people participated and attended Yuvaan. Yuvaan has been graced by DTU's own alumni and
+                national bestseller, Durjoy Datta, artists of the viral slam poetry group UnErase Poetry, the wonderful
+                Nizami Brothers who gave the perfect closing ceremony in the form of a Sufi Night, Major General GD
+                Bakshi, celebrated journalists such as Sunetra Chaudhary, Rohit Sardana, Sanket Upadhyay and many more.
+                Yuvaan has set high bars and is ready to become the biggest college literary fests in India.</p>
+            <!-- <p class="price">₹200</p>
+            <p class="location">Delhi Technological University, Delhi, India</p> -->
+        </div>
+    </div>
+    <footer class="mt-3">
+        <div class="f-info">
+            <div class="f-info-brand mt-1">
+                <b>STUCOBE</b>
+            </div>
+            <div class="f-info-links mb-3">
+                <a href="/privacy">Privacy</a>
+                <a href="/terms">Terms</a>
+            </div>
+            <p>&copy; 2024 StuCobe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
